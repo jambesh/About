@@ -1,32 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me - Jambesh</title>
-    <link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Professional Bio - Wyatt L. Harlow</title>
+<style>
+  body {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fff;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    max-width: 900px;
+    margin: 0 auto;
+    color: #333;
+  }
+  .left-section {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  .right-section {
+    background-color: #fff;
+    padding: 20px;
+  }
+  h1 {
+    font-size: 36px;
+  }
+  .subtitle {
+    font-size: 18px;
+    color: #666;
+  }
+  .about-section,
+  .skills-section {
+    margin-bottom: 20px;
+  }
+  .about-title,
+  .skills-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .skill-item {
+    margin-bottom: 5px;
+  }
+  .skill-item span {
+    display: block;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background-color: #ccc;
+    display: inline-block;
+    margin-right: 5px;
+  }
+  .filled {
+    background-color: #333;
+  }
+  .profile-image {
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin: 20px auto;
+    display: block;
+  }
+</style>
 </head>
 <body>
-    <header>
-        <h1>Jambesh</h1>
-        <p>Developer | Tech Enthusiast | Innovator</p>
-    </header>
-    <section class="bio">
-        <h2>About Me</h2>
-        <p>Here's a brief introduction about who I am and what I do. Include a few lines that highlight your professional background, skills, and achievements.</p>
-    </section>
-    <section class="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>Project Title</h3>
-            <p>Description of the project.</p>
-        </div>
-        <!-- Repeat for other projects -->
-    </section>
-    <section class="contact">
-        <h2>Contact Me</h2>
-        <p>Email: <a href="mailto:email@example.com">email@example.com</a></p>
-    </section>
-    <script src="script.js"></script>
+
+<div class="container">
+  <div class="left-section">
+    <div class="about-section">
+      <div class="about-title">ABOUT</div>
+      <p>Wyatt Harlow is a young, professional graphic designer with a background in web development...</p>
+      <!-- Continue the about section content -->
+    </div>
+  </div>
+  <div class="right-section">
+    <div class="profile-image"></div>
+    <h1>Wyatt L. Harlow</h1>
+    <div class="subtitle">Graphic Designer</div>
+    <div class="skills-section">
+      <div class="skills-title">SOFTWARE SKILLS</div>
+      <div class="skill-item">
+        <span class="filled"></span>
+        <span class="filled"></span>
+        <span></span>
+        3D Studio Max:
+      </div>
+      <!-- Continue with other skills -->
+    </div>
+  </div>
+</div>
+
 </body>
 </html>
