@@ -75,25 +75,5 @@ sequenceDiagram
                : sub-point 3c
           Bullet 4 : sub-point 4a : sub-point 4b
 
-
-```mermaid
-   %%{init: { 'logLevel': 'debug', 'theme': 'default' , 'themeVariables': {
-              'cScale0': '#ff0000', 'cScaleLabel0': '#ffffff',
-              'cScale1': '#00ff00',
-              'cScale2': '#0000ff', 'cScaleLabel2': '#ffffff'
-       } } }%%
-       timeline
-        title History of Social Media Platform
-          2002 : LinkedIn
-          2004 : Facebook : Google
-          2005 : Youtube
-          2006 : Twitter
-
-```
-
-```mermaid
-   
-
-
 ```
 
